@@ -1,7 +1,8 @@
 import React from "react";
-import { Search } from "lucide-react";
+import { Search, Settings } from "lucide-react";
+import Link from "next/link";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="dark:py- flex items-center justify-between bg-white px-4 py-3 dark:bg-black">
       {/* Search Bar */}
@@ -15,8 +16,19 @@ function Navbar() {
           />
         </div>
       </div>
+
+      {/* Icons */}
+      <div className="items-center> flex">
+        <Link
+          href="/settings"
+          className="h-min w-min rounded p-2 hover:bg-gray-100"
+        >
+          <Settings className="h-6 w-6 cursor-pointer dark:text-white" />
+        </Link>
+        <div className="ml-2 mr-5 hidden min-h-[2em] w-[0.1rem] bg-gray-200 md:inline-block"></div>
+      </div>
     </div>
   );
-}
+};
 
 export default Navbar;
