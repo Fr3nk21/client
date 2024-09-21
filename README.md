@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+// TODO: https://www.youtube.com/watch?v=KAV8vo7hGAo
+// TODO: Side bar 1:09:02
+
 ## Getting Started
 
 First, run the development server:
