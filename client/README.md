@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 // TODO: https://www.youtube.com/watch?v=KAV8vo7hGAo
-// TODO: Prisma and Seed data 2:04:10
+// TODO: Backend install 2:14:00
 
 ## Getting Started
 
